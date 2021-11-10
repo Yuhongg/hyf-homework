@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    background-color: #c47f1f;
+    width: 100%;
+    height: auto
+}
+h1{
+    letter-spacing: 1;
+    color: black;
+}
+h3 {
+    line-height: 2;
+    letter-spacing: 2;
+    font-size: 18px;
+    color: black;
+
+}
+
+h4 {
+   font-size: 16px;
+   color: black;
+   
+}
+p {
+    font-size: 14px;
+}
+
+
+.resume {
+  max-width: 800px;
+  margin: 2rem auto;  
+  background-color: #c47f1f;
+  padding: 2rem 1 rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.header-image {
+    width: 60px;
+    height: 90px;
+    object-fit: cover;
+
+}
+
+.header-name{
+    letter-spacing: 2;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+    text-align: center;
+
+}
+
+.header-job {
+    letter-spacing: 1;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.header-contact {
+    width: 80%;
+    display:flex;
+    font-size: 14px;
+    justify-content: space-evenly;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.divider {
+    margin: 1rem 2rem;
+    width: 100%;
+    border: 1px solid;
+}
+
+.body-cv {
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit),minmax(300px, 1fr);
+     
+}
+.left-cv {
+    padding: 1 2rem;
+    text-align: left;
+    border-right: 2px soild;
+    border-color:blanchedalmond;
+
+}
+ 
+.card-cv {
+    padding: 0.5rem 1rem;
+
+}
+
+.detail {
+padding:0.5rem 0;
+}
+
+.subdetail {
+    padding: 0.5rem 0;
+}
+
+a {
+    text-decoration: none;
+    color: blanchedalmond;
+    
+}
