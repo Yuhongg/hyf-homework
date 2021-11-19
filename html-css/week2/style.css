@@ -91,6 +91,7 @@ h2, h3 {
 .info, .gallery {
    justify-content: space-between;
    display: flex;
+   
 }
 
 .info p, .gallery-left p {
@@ -103,7 +104,7 @@ h2, h3 {
     display: block;
     flex-basis: 40%;
     flex-direction: column;
-    padding-top: 50px;
+    padding-top: 80px;
     margin-left: 20%;
     margin-right: 10%;
 }
@@ -111,7 +112,7 @@ h2, h3 {
 .article-right {
     flex-direction: column;
     flex-basis: 60%;
-    padding-top: 50px;
+    padding-top: 80px;
     width: 100%;
     margin-right: 10%;
 }
@@ -120,7 +121,7 @@ h2, h3 {
     flex-basis: 40%;
     font-style: bold;
     flex-direction: column;
-    padding-top: 50px;
+    padding-top: 80px;
     padding-left: 20px;
 }
 
@@ -128,7 +129,7 @@ h2, h3 {
     font-style: bold;
     flex-direction: column;
     flex-basis: 60%;
-    padding-top: 50px;
+    padding-top: 80px;
     width: 100%;
 }
 
