@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body {
+    width: 100vw;
+    height: 80vw;
+    background-color: white;
+    color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+.top li {
+    text-decoration: none;
+    display: inline;
+    float: right;
+    padding: 1em;
+}
+main {
+    padding: 1em 1em 1em 1em;
+}
+
+.item {
+  line-height: 20px;
+  display: inline;
+  padding-right: 7px;
+  margin-top: 10px;
+
+}
+
+p {
+  padding: 10px;
+  margin: 8px;
+}
+
+.image {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 3rem 3rem 3rem 3rem;
+
+    
+
+}
+
+button {
+    width: 20%;
+    position: relative;
+    margin-left: 40em;
+    float: right;
+    margin-bottom: 20rem;
+}
+

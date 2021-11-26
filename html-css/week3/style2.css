@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+.top li {
+    text-decoration: none;
+    display: inline;
+    float: right;
+    padding: 1em;
+}
+main {
+    padding: 1em 1em 1em 1em;
+}
+
+form {
+    margin-top: 2em;
+    width: 100%;
+}
+
+.f-row {
+    width: 100%;
+    display: inline-block;
+    margin-top: 3%;
+    padding-right: 1%;
+    margin-left: 2%;
+} 
+
+button {
+    width: 20%;
+    position: relative;
+    margin-left: 40em;
+    float: right;
+}
