@@ -30,3 +30,8 @@ if (actualHousePrice >= fairHousePrice) {
     console.log("The prospective buyers are paying a fair amount for the house.");
 }
 
+let firstWords = ["great", "nice", "super", "neat", "urban", "time", "digital", "zoom", "goody", "future"];
+let secondWords = ["corporation", "firm", "company", "studio", "zone", "game", "easy", "vision", "mission", "door"];
+let startupName;
+
+console.log("The startup '" + firstWords[4] + "" + secondWords[7] + "' contains " + (firstWords[4].length() + secondWords[7].length()) + "characters.")
