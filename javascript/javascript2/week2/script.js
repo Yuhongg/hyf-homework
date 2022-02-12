@@ -44658,3 +44658,21 @@ const averageRating = movies.reduce((sumRating, movie) => {
   return sumRating;
 }, {});
 // NOthing happened
+
+//function rateMovie(rating){
+// if (rating>= 7){
+//return "good";
+//}
+// if(rating <7 && rating >= 4){
+//  return"Average"
+//}
+//return "Bad";
+//}
+// const taggedMovies = movies.map(movie => { const cloneMovie = {... movie};
+// cloneMovie.tag = rateMovie(movie.rating);
+//JSON.stringify(movies[0])
+
+//})
+
+// const taggedMovies = movies.map(movie => ({... movie, tag:rateMovie(movie.rating)}));
+//
