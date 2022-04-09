@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 
-// import data here
+// Import data here
 const meals = require("./data/meals");
 const reservation = require("./data/reservations");
 const reviews = require("./data/reviews");
@@ -15,6 +15,7 @@ const reviewedMeal = meals.map((meal) => {
   return meal;
 });
 
+console.log("Filtering arrays...");
 const cheapMeal = reviewedMeal.filter((meal) => meal.price < 100);
 const largeMeal = reviewedMeal.filter((meal) => meal.maxNumberOfGuests > 3);
 
