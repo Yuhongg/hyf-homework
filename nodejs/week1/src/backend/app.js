@@ -15,7 +15,7 @@ const reviewedMeal = meals.map((meal) => {
   return meal;
 });
 
-console.log("Filtering arrays");
+console.log("Filtering arrays...");
 const cheapMeal = reviewedMeal.filter((meal) => meal.price < 100);
 const largeMeal = reviewedMeal.filter((meal) => meal.maxNumberOfGuests > 3);
 
