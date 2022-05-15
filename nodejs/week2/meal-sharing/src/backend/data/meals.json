@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Indian food in the summer",
+    "maxNumberOfGuests": 5,
+    "description": "A nice night out eating delicious indian food",
+    "createdAt": "2019/12/7 14:34",
+    "price": 67
+  },
+  {
+    "id": 2,
+    "title": "Icecream",
+    "maxNumberOfGuests": 8,
+    "description": "special food",
+    "createdAt": "2022/04/7 14:34",
+    "price": 123
+  },
+  {
+    "id": 3,
+    "title": "Icetea",
+    "maxNumberOfGuests": 1,
+    "description": "drink",
+    "createdAt": "2022/04/7 14:34",
+    "price": 35
+  },
+  {
+    "id": 4,
+    "title": "mojoto",
+    "maxNumberOfGuests": 1,
+    "description": "cocktail",
+    "createdAt": "2022/04/7 14:34",
+    "price": 55
+  }
+]
