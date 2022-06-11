@@ -1,5 +1,7 @@
 Tomato
 Potato
-Eggplante
+Carrot
 Cucumber 
 Red pepper
+Corn 
+Lettuce
