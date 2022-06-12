@@ -1,0 +1,35 @@
+button {
+  text-align: center;
+  margin: 1px;
+  padding: 12px;
+  background: #6cdaff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #bbb;
+}
+
+.button:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+input {
+  width: 40%;
+  text-align: center;
+  margin: 1px;
+  padding: 12px;
+  background: #f1f1f1;
+  color: rgb(49, 46, 46);
+  cursor: pointer;
+  font-size: 16px;
+}
+
+textarea {
+  width: 65%;
+  min-height: 700px;
+  resize: vertical;
+}
