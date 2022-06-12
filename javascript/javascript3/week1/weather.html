@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Open Weather APP</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./open-weather.css"
+    />
+  </head>
+  <body>
+    <label for="city-input"></label>
+    <input type="text" id="city-input" placeholder="Enter city here... " />
+    <button class="getCityButton" onclick="showWeatherDataForCity()">
+      Fetch!
+    </button>
+    <br /><br />
+    <textarea id="city-data"></textarea>
+  </body>
+</html>
+<script src="./open-weather.js"></script>
